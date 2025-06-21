@@ -70,30 +70,29 @@ POTEFOLIO/
 └── README.md # Project documentation (this file)
 
 
----
 
-## 🛠️ Setup Instructions
 
-# 1. Clone the repository  
+🛠️ Setup Instructions
+
+ 1. Clone the repository  
    ```bash
    git clone https://github.com/yourusername/portfolio.git
 
-## 2.Import the SQL table from phpMyAdmin
+2.Import the SQL table from phpMyAdmin
 
     Create a table named contacts (columns: id, name, email, number, message)
+ 3.Configure dbconnect.php with your database credentials
 
-# 3.Configure dbconnect.php with your database credentials
-
-# 4. Run index.php on localhost using XAMPP or WAMP
----
+ 4. Run index.php on localhost using XAMPP or WAMP
 
 
-## 📌 Contact Info Storage (MySQL)
+
+ 📌 Contact Info Storage (MySQL)
     Sample schema for the contacts table:
 ---
 ## sql
 
-## CREATE TABLE `contacts` (
+## CREATE TABLE `contacts` 
     `id` int(11) NOT NULL AUTO_INCREMENT,
     `name` varchar(100) NOT NULL,
     `email` varchar(100) NOT NULL,
@@ -103,18 +102,18 @@ POTEFOLIO/
    );
 ---
 
-# 🙋‍♂️ About Me
-## I’m Sayan Adhikary, a passionate Web Designer & Developer from Kolkata, India.
+ 🙋‍♂️ About Me
+#I’m Sayan Adhikary, a passionate Web Designer & Developer from Kolkata, India.
    I love working on dynamic projects and web applications using modern technologies.
 
-# 📧 Contact
-#    📍 Location: Kolkata, West Bengal, India
+ 📧 Contact
+    📍 Location: Kolkata, West Bengal, India
 
-#   📱 Phone: +91 9330842161
+   📱 Phone: +91 9330842161
 
-#    📧 Email: sayanadhikary831@gmail.com
+    📧 Email: sayanadhikary831@gmail.com
 
-# 🏁 Future Improvements
+ 🏁 Future Improvements
     Add reCAPTCHA to the contact form
 
     Enable email notifications for new messages
@@ -123,8 +122,8 @@ POTEFOLIO/
 
     Make the site multilingual
 
-# 📜 License
-#    This project is open-source and available under the MIT License.
+ 📜 License
+    This project is open-source and available under the MIT License.
 
     ---
     <a href="potefolio/LICENSE"></a>
