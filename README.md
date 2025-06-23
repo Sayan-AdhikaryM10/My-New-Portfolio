@@ -3,7 +3,7 @@
 This is a **Personal Portfolio Website** project built using **HTML, CSS, JavaScript, PHP, and MySQL**. The website showcases my biography, skills, education, work experience, projects, and a contact form with message handling and database storage.
 
 ## 🔗 Live Preview
-[View Website](#) <!-- Replace # https://sayanadhikary.free.nf/ -->
+[View Website](# https://sayanadhikary.free.nf/) 
 
 ---
 
