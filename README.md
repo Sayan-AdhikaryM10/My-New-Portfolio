@@ -3,7 +3,7 @@
 This is a **Personal Portfolio Website** project built using **HTML, CSS, JavaScript, PHP, and MySQL**. The website showcases my biography, skills, education, work experience, projects, and a contact form with message handling and database storage.
 
 ## 🔗 Live Preview
-[View Website](#) <!-- Replace # with your live link if hosted -->
+[View Website](#) <!-- Replace # https://sayanadhikary.free.nf/ -->
 
 ---
 
@@ -57,7 +57,7 @@ This is a **Personal Portfolio Website** project built using **HTML, CSS, JavaSc
 
 ## 📁 Folder Structure
 
-```
+
 POTEFOLIO/
 │
 ├── .vscode/ # VSCode workspace settings<br>
@@ -77,6 +77,7 @@ POTEFOLIO/
  1. Clone the repository  
    ```bash
    git clone https://github.com/yourusername/portfolio.git
+   ```
 
 2.Import the SQL table from phpMyAdmin
 
@@ -92,6 +93,7 @@ POTEFOLIO/
 ---
 ## sql
 
+```bash
 ## CREATE TABLE `contacts` 
     `id` int(11) NOT NULL AUTO_INCREMENT,
     `name` varchar(100) NOT NULL,
@@ -100,10 +102,10 @@ POTEFOLIO/
     `message` text NOT NULL,
     PRIMARY KEY (`id`)
    );
----
+```
 
  🙋‍♂️ About Me
-#I’m Sayan Adhikary, a passionate Web Designer & Developer from Kolkata, India.
+# I’m Sayan Adhikary, a passionate Web Designer & Developer from Kolkata, India.
    I love working on dynamic projects and web applications using modern technologies.
 
  📧 Contact
@@ -128,4 +130,4 @@ POTEFOLIO/
     ---
     <a href="potefolio/LICENSE"></a>
     ---
-"# My-New-Portfolio" 
+ 
